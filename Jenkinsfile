@@ -5,7 +5,7 @@ pipeline {
         TAG_IMAGE = "v2.0"
         DOCKERHUB_ID = "ulrichsteve"
         DOCKERHUB_PASSWORD = credentials('dockerhub_password') 
-        HOST_IP = 54.157.240.227
+        HOST_IP = 44.192.12.174
         APP_EXPOSED = 8080
         CONTAINER_PORT = 8080
 
